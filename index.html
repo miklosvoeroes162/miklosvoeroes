@@ -336,7 +336,7 @@
   .carousel-track {
     display: flex; gap: 1rem;
     width: max-content;
-    animation: carouselScroll 30s linear infinite;
+    animation: carouselScroll 20s linear infinite;
   }
   .carousel-wrapper:hover .carousel-track { animation-play-state: paused; }
   .carousel-slide {
@@ -626,6 +626,7 @@
 </section>
 
 <!-- VALUES / PILLARS -->
+ <section id="pillars">
   <div class="pillars-inner">
     <div class="section-label reveal">What drives me</div>
     
@@ -671,7 +672,7 @@
 
 <!-- WORK / MEDIA -->
 <div id="work">
-  <div class="media-inner">
+  <div class="media-inner" style="margin-top: 4rem;">
     <div class="section-label reveal">Work samples</div>
     
     <h2 class="section-title reveal">Things I've made.</h2>
@@ -682,9 +683,8 @@
       <!-- CARD 1: Wedding Videography -->
       <a class="media-card reveal" href="https://drive.google.com/file/d/13czU3tOIAfa1j2SR8Q9Jwa7aVOsw8ATn/view?usp=drivesdk" target="_blank">
         <div class="media-thumb">
-          <img src="sri.jpeg" alt="Wedding film thumbnail" style="display:none">
-          <div class="media-play">&#9654;</div>
-          <span class="media-label">Hobby · Wedding Videography</span>
+          <img src="sri.jpeg" alt="Wedding film thumbnail" >
+     
         </div>
         <div class="media-body">
           <p class="media-title">Wedding film — personal project</p>
@@ -700,11 +700,8 @@
             1. Add a file, e.g. "thumb-japan.jpg"
             2. Set: <img src="thumb-japan.jpg" ...> and remove display:none
           -->
-          <img src="no.jpeg" alt="Japan blog thumbnail" style="display:none">
-          <div class="media-play" style="border-color: var(--gold-dim);">
-            <span style="font-size:1.3rem; padding-left:0;">&#9991;</span>
-          </div>
-          <span class="media-label">Blog / Instagram</span>
+          <img src="no.jpeg" alt="Japan blog thumbnail" >
+         
           
         </div>
         <div class="media-body">
@@ -718,11 +715,8 @@
       <!-- CARD 3: Music on SoundCloud -->
       <a class="media-card reveal" href="https://soundcloud.com/mian-916803687/sets/best-of" target="_blank">
         <div class="media-thumb" style="background: var(--bg3);">
-          <img src="pi.jpeg" alt="Music thumbnail" style="display:none">
-          <div class="media-play" style="border-color: var(--gold);">
-            <span style="font-size:1.3rem; padding-left:0;">&#9835;</span>
-          </div>
-          <span class="media-label">Music / SoundCloud</span>
+          <img src="pi.jpeg" alt="Music thumbnail" >
+         
           
         </div>
         <div class="media-body">
@@ -753,7 +747,7 @@
          
         </div>
         <div class="carousel-slide">
-          <img src="1 (4).jpeg" alt="Japan Travels Kyushu" id="gal2" class="carousel-img">
+          <img src="5.jpeg" alt="Sri Lanka Travels" id="gal2" class="carousel-img">
          
         </div>
         <div class="carousel-slide">
@@ -766,24 +760,21 @@
         </div>
         <div class="carousel-slide">
           <img src="7.jpeg" alt="Cityguide" id="gal5" class="carousel-img">
-          <div class="carousel-ph" id="gal5-ph"><span>📷</span><span>Add photo</span></div>
+         
         </div>
         <div class="carousel-slide">
           <img src="6.jpeg" alt="Creative Handicraft" id="gal6" class="carousel-img">
 
         </div>
 
-        <div class="carousel-slide">
-          <img src="5.jpeg" alt="Sri Lanka Travels" id="gal7" class="carousel-img">
-          
-        </div>
+    
         <!-- Duplicates for seamless infinite loop -->
         <div class="carousel-slide carousel-clone">
           <img src="1 (3).jpeg" alt="Photo 1 clone" class="carousel-img carousel-clone-img" data-src-ref="gal1">
  
         </div>
         <div class="carousel-slide carousel-clone">
-          <img src="1 (4).jpeg" alt="Photo 2 clone" class="carousel-img carousel-clone-img" data-src-ref="gal2">
+          <img src="5.jpeg" alt="Photo 2 clone" class="carousel-img carousel-clone-img" data-src-ref="gal2">
        
         </div>
         <div class="carousel-slide carousel-clone">
